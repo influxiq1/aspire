@@ -1,0 +1,36 @@
+<mat-card class="aspirelandingblock1 asaspirelandingblock1">
+  <mat-card-content class="loginmainwrapper">
+  <img mat-card-sm-image class="loginlogo" src="../../assets/images/aspirelandinglogo.png">
+    <mat-card-content class="toprightformdiv">
+  <mat-card-title class="formheaderblock">
+    <mat-card-subtitle class="matimgwrapper">
+      <img mat-card-image src="../../assets/images/logo-login02.png">
+    </mat-card-subtitle>
+
+    Login Here
+
+  </mat-card-title>
+  <mat-card-subtitle class="formclsnew formclsnew" [formGroup]="myForm">
+    <mat-icon class="material-icons mat-icon-no-color">person</mat-icon>
+    <mat-form-field class="example-full-width form-row">
+      <input matInput placeholder="User name" autocomplete="off" [formControl]="myForm.controls['username']">
+    <span class="errorclsnew" *ngIf="!myForm.controls['username'].valid && myForm.controls['username'].touched">Username field can not be blank</span>
+    </mat-form-field>
+
+    <mat-icon class="material-icons mat-icon-no-color">lock</mat-icon>
+    <mat-form-field class="example-full-width form-row">
+      <input matInput placeholder="Password" type="password" autocomplete="off" [formControl]="myForm.controls['password']">
+    <span class="errorclsnew" *ngIf="!myForm.controls['password'].valid && myForm.controls['password'].touched">Password field can not be blank</span>
+    </mat-form-field>
+
+
+
+    <button mat-button class="btnformgray" [disabled]="!myForm.valid" (click)="onSubmit()">Login</button>
+
+    <p class="forgotp">Forgot password</p>
+  </mat-card-subtitle>
+</mat-card-content>
+
+  </mat-card-content>
+  <mat-card-content class="overlaybg"></mat-card-content>
+</mat-card>

@@ -1,0 +1,24 @@
+table {
+  width: 100%;
+}
+
+th.mat-sort-header-sorted {
+  color: black;
+}
+.a{
+  padding: auto;
+}
+.a .a1 {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.a .a2 {
+  float: right;
+
+}
+input{
+  color: #343434!important;
+
+}
+
+

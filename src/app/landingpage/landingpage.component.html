@@ -1,0 +1,335 @@
+
+<div class="container-fluid aspirelandingblock1" >
+
+      <div class="aspirelandingblock1wrapper">
+        <div class="row">
+          <div class="col-md-7 text-center topleftdiv">
+            <div class="landinglogoblock1">
+              <img src="../../assets/images/aspirelandinglogo.png">
+            </div>
+
+            <div class="landingleftcontent">
+              <h2>The C-Level Executives</h2>
+              <h4>You Know Could Each Earn You $248,000 A Year. </h4>
+              <p>(That's $248K a year in repeatable, residual income just for introducing<br> IntelaPay to the CEOs, CFOs, & Controllers you already know) <span>Aspire is the ultimate in pay card solutions for the accounts payable departments<br> of your clients and contacts. We save both time and pay back a lot of money.</span></p>
+              <a class="btnblueround btnbluelanding" href="#elementTo">Find out how</a>
+            </div>
+
+          </div>
+          <div class="col-md-5 text-center toprightdiv" id="top">
+            <div class="toprightformdiv" >
+              <div class="formheaderblock">
+                <p>Aspire Strategic Partner, you'll introduce IntelaPay to the C-level executives you already have relationships with. <span>To find out if you qualify just enter your information below and being our recruiting process:</span>
+                </p>
+              </div>
+              <form class="formclsnew" [formGroup]="myForm" (ngSubmit)="onSubmit()"  >
+
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+
+                    <input type="text" class="form-control"  placeholder="First Name" [formControl]="myForm.controls['firstname']"  />
+                    <span class="errorclsnew" *ngIf="!myForm.controls['firstname'].valid && myForm.controls['firstname'].touched">First Name field can not be blank</span>
+
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <input type="text" class="form-control"  placeholder="Last Name" [formControl]="myForm.controls['lastname']" />
+                    <span class="errorclsnew" *ngIf="!myForm.controls['lastname'].valid && myForm.controls['lastname'].touched">Last Name field can not be blank</span>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <input type="text" class="form-control"  placeholder="phone number" [formControl]="myForm.controls['phone_number']"  />
+                    <span class="errorclsnew" *ngIf="!myForm.controls['phone_number'].valid && myForm.controls['phone_number'].touched">Phone Number field can not be blank</span>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <input type="email" class="form-control" placeholder="Email Address" [formControl]="myForm.controls['emailaddress']" />
+                    <span class="errorclsnew" *ngIf="!myForm.controls['emailaddress'].valid && myForm.controls['emailaddress'].touched">Email field can not be blank</span>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <label>How Many Established Relationships Do You Have with CFOs, CEOs, or Controllers Of Companies Generating Over $50MM/Year In Gross Revenues?</label>
+                    <input type="text" class="form-control" id="grossrevinue" placeholder="" [formControl]="myForm.controls['grossrevinue']" >
+
+                    <span class="errorclsnew" *ngIf="!myForm.controls['grossrevinue'].valid && myForm.controls['grossrevinue'].touched">grossrevinue Name field can not be blank</span>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col-md-12" >
+                    <label>Choose one:</label>
+                    <div><input id="radio1" type="radio" name="radio1" value="career" checked ="checked" [formControl]="myForm.controls['radio']"><label for="radio1"> Looking for a career change </label>  </div>
+                    <div><input id="radio2" type="radio" name="radio1" value="income" [formControl]="myForm.controls['radio']"><label for="radio2" > Looking for sideline income </label>  </div>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <label>How many years have you been selling to C-Level Executives? </label>
+                    <input type="text" class="form-control" id="clevelexecutive" placeholder="" [formControl]="myForm.controls['clevelexecutive']">
+                    <span class="errorclsnew" *ngIf="!myForm.controls['clevelexecutive'].valid && myForm.controls['clevelexecutive'].touched">clevelexecutive Name field can not be blank</span>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <button type="submit" class="btn btnformgray" (click)="open(content)" [disabled]="!myForm.valid"  >Submit</button>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-12">
+                    <p><span>*</span> We will only share with you content directly related to the IntelaPay opportunity and you can opt out easily at any time.</p>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="overlaybg"></div>
+
+</div>
+
+<div class="container-fluid aspirelandingblock2 ptb-77 generalcls">
+  <div class="mainwrappercontent">
+    <div class="row">
+      <div class="col-md-7 aspirelandingblock2left">
+        <h1>How Can You Earn $248,000 A Year With Apsire?</h1>
+        <p>There are many things about Aspire that will make a serious difference in your career path. First and most important is how incredible this opportunity is for your C-Level contacts. What Aspire does for a company's accounts payable programs streamlines their process, saves them time and best of all creates an incredible rebate for using our programs. Bottom line you can walk in with confidence knowing you will save the company money. </p>
+        <div class="text-right btnblock-rb">
+          <a class="btnblue btnbluelanding" href="javascript:void(0)"  href="#top" >See If you Qualify</a>
+        </div>
+      </div>
+      <div class="col-md-5 aspirelandingblock2right">
+        <div class="videomainwrapper">
+          <div class="gcls-video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Bey4XXJAqS8?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/IUYPD8qRyu0?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid aspirelandingblock3 ptb-77 generalcls">
+  <img src="../../assets/images/aspirelandingblock3bgsml.jpg" class="aspirelandingblock3bgsml">
+  <div class="mainwrappercontent">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="aspirelandingblock3content">
+          <h1>Process</h1>
+          <p>To become a strategic partner with Aspire and earn residual income, you must have established relationships with C-Level executives of companies that generate at least $50 MM/year in revenues or have over 100 employees. </p>
+
+          <h2>Step 1. You Introduce Your C-Level Relationships to Aspire</h2>
+          <p>If you’ve spent your career building professional connections, and you have at least 5 c-level financial professionals, such as CEO, CFOs or Comptrollers, at organizations that have at least 100 employees, or who are doing over $50 million in revenue, we're interested in working with you.
+            <span>You simply find and refer prospective clients by scheduling them for a 15-minute online overview presentation. Don’t worry, we’ll teach you what to say in two minutes to schedule these presentations.</span></p>
+
+          <h2>Step 2. Our Business Development Team takes care of the rest</h2>
+          <p>After your introduction, we handle everything from the first presentation all the way to integrating with the client.  Best of all, our sales process and even our solution is completely free!  So your trusted relationships will never be pressured to work with Aspire.</p>
+
+          <div class="text-right">
+            <a class="btnblue btnbluelanding" href="javascript:void(0)"  href="#top">See If you Qualify</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid aspirelandingblock5 ptb-77 generalcls" id="elementTo">
+  <div class="mainwrappercontent1">
+    <div class="row aspirelandingblock5row">
+      <div class="col-md-12 text-center">
+        <h1>Here's How You Get Paid</h1>
+        <p>Every company you refer that goes with ASPIRE, you receive:</p>
+        <div class="getpainimgwrapper">
+            <div class="circledivwrapper">
+              <div class="circledivwrapperinner">
+                <h1 class="pricetxt">
+                  10 <span>BPS</span>
+                </h1>
+              </div>
+            </div>
+
+                <h3 class="pricetxt">
+                  =
+                </h3>
+
+            <div class="circledivwrapper">
+              <div class="circledivwrapperinner">
+                <h1 class="pricetxt">
+                  $1,000
+                </h1>
+              </div>
+            </div>
+        </div>
+        <p>It's that simple!  You will receive 10 basis points or $1,000 for every $1 Million Dollars in<br> Accounts Payable converted to Virtual Card Payments. <span>As a Strategic Partner, you can help businesses, schools, municipalities, hospitals, and almost any for-profit or nonprofit organization<br> in the U.S. to pay their vendors and suppliers, who already accept credit cards for payments, with a virtual credit card.</span></p>
+
+        <h3>But Don't Wait!</h3>
+        <p>With brands like Firestone and Dominos Pizza already using the Aspire platform, we're at a tipping point.  Every month, we convert<br> hundreds of new clients.  The question is, how many of these new clients will be introduced by you?</p>
+
+        <div class="text-center">
+          <a class="btnblue" href="javascript:void(0)" href="#top">Find Out If You Qualify</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="h-auto h-100 text-center aspirelandingblock5bg"><img src="../../assets/images/aspirelandingblock5txtbg.png"></div>
+</div>
+
+<div class="container-fluid aspirelandingblock6 ptb-77 generalcls">
+  <img src="../../assets/images/aspirelandingblock6bgsml.jpg" class="aspirelandingblock6bgsml">
+
+  <div class="mainwrappercontent">
+    <div class="row">
+      <div class="col-md-12">
+          <div class="aspirelandingblock6content">
+            <h2 href="#top" >Ready to leverage the hard-earned relationships you've built over your career?  Great!  We're excited to get to know you better and see if you qualify. </h2>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="overlaybg1"></div>
+</div>
+
+
+<div class="container-fluid aspirelandingblock7 ptb-77 generalcls">
+  <div class="mainwrappercontent2">
+    <div class="row aspirelandingblock7content">
+          <h1 class="text-center">Stats and Case Study</h1>
+          <div class="aspirelandingblock7contentlists align-self-stretch">
+
+            <div class="col-md-4 singlecolumn">
+              <h2>$100 BILLION +</h2>
+              <p>Client Check Spend converted to Electronic Payments</p>
+            </div>
+
+            <div class="col-md-4 singlecolumn">
+              <h2>$50 BILLION +</h2>
+              <p>Savings Delivered in Direct Cost Elimination, Card Rebates & Network Discounts</p>
+            </div>
+
+            <div class="col-md-4 singlecolumn">
+              <h2>$100 BILLION +</h2>
+              <p>Checks Eliminated & Converted to Electronic Payments</p>
+            </div>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid aspirelandingblock8 ptb-77 generalcls">
+  <div class="mainwrappercontent3">
+    <div class="row aspirelandingblock8content">
+      <h1 class="text-center">Stats and Case Study</h1>
+      <div class="aspirelandingblock8contentlists align-self-stretch">
+
+        <div class="col-md-4 singlecolumn">
+
+          <div class="aspirelandingblock8imgblock">
+            <img src="../../assets/images/aspirelandingblock8img1.png" class="full-screen">
+          </div>
+
+          <h2>Strategic Partner introduces Aspire to a Furniture Dealer</h2>
+          <p>Employees: 100<br>
+            Accounts Payable converted to Virtual<br>
+            Cards Payments: <br>
+            Annual Rebate: $150k
+          </p>
+
+          <h2>Strategic Partner Income</h2>
+          <p>
+            Monthly Income: $667<br>
+            Annual Income: $8,000<br>
+            5 Years Income: $40,000
+          </p>
+
+
+        </div>
+
+        <div class="col-md-4 singlecolumn">
+          <div class="aspirelandingblock8imgblock">
+            <img src="../../assets/images/aspirelandingblock8img2.png" class="full-screen">
+          </div>
+
+          <h3>Case Study: Food Manufacturer</h3>
+          <h2>The Introduction</h2>
+          <p>Strategic Partner knows the CFO of a Food Manufacturing company and introduces Aspire to the CFO
+
+          <h2>Employees: 1500</h2>
+          <p>
+            Accounts Payable converted to Virtual Cards<br>
+            Payments: $264,000,000<br>
+            Annual Rebate: $3,960,000
+          </p>
+
+          <h2>Strategic Partner Income</h2>
+          <p>
+            Monthly Income: $17,600<br>
+            Annual Income: $211,200<br>
+            5 Years Income: $1,056,000
+          </p>
+        </div>
+
+        <div class="col-md-4 singlecolumn">
+          <div class="aspirelandingblock8imgblock">
+            <img src="../../assets/images/aspirelandingblock8img3.png" class="full-screen">
+          </div>
+
+          <h3>Case Study: Real Estate Developer</h3>
+
+          <h2>The Introduction</h2>
+          <p>
+            <span>Strategic Partner introduces the Aspire concept to a Real State Developer.</span>
+
+              Employees: 300<br>
+              Accounts Payable converted to Virtual Cards <br>
+              Payments: $62,000,000<br>
+              Annual Rebate: $930,000
+          </p>
+
+          <h2>Strategic Partner Income</h2>
+          <p>
+            Monthly Income: $4,133<br>
+            Annual Income: $49.600<br>
+            5 Years Income: $248,000
+          </p>
+
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <a class="btnblue" href="javascript:void(0)" href="#top">Find Out If You Qualify</a>
+    </div>
+  </div>
+</div>
+
+
+<app-landingfooter></app-landingfooter>
+
+
+
+
+
+<ng-template #content let-modal>
+
+  <div class="modal-body aspiremodalcls">
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+
+      <div class="logomodalwrapper">
+        <img src="../../assets/images/aspirelandinglogo.png">
+      </div>
+      <h2>Thank you for submitting your request</h2>
+  </div>
+
+</ng-template>
+

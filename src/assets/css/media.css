@@ -1,0 +1,361 @@
+@media screen and (max-width: 1800px) {
+    .mainwrappercontent {
+        width: 91%;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 1600px) {
+    .mainwrappercontent3{
+        width: 91%;
+        margin: 0 auto;
+        display: block;
+    }
+    .aspirelandingblock1wrapper {
+        width: 96%;
+    }
+    .aspirelandingblock1 {
+        background-image: url(../../assets/images/aspirelandingblock1bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: left center;
+    }
+    .landingleftcontent {
+        margin-left: 0%;
+        margin-top: 45%;
+    }
+    .landinglogoblock1 {
+        margin-left: 0%;
+    }
+    .landingleftcontent h2 {
+        font-size: 52px;
+
+    }
+
+    .generalcls h1 {
+        font-size: 30px;
+        line-height: 30px !important;
+        margin-bottom: 18px;
+    }
+    .generalcls p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .btnblock-rb {
+        bottom: -60px;
+    }
+    .aspirelandingblock3content {
+        width: 50%;
+        float: right;
+    }
+    .generalcls h2 {
+        font-size: 21px;
+        line-height: 22px !important;
+        margin-bottom: 18px;
+        margin-top: 22px;
+    }
+    .generalcls h3 {
+        font-size: 30px;
+        line-height: 30px !important;
+        margin-bottom: 14px;
+        margin-top: 19px;
+    }
+    .aspirelandingblock7contentlists .singlecolumn p {
+        color: #fff !important;
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .aspirelandingblock7contentlists .singlecolumn {
+        padding: 3px 14px 25px !important;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .mainwrappercontent2 {
+        width: 91%;
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 1199px) {
+    .toprightformdiv {
+        width: 376px !important;
+    }
+    .mainwrappercontent1 {
+        width: 91%;
+        margin: 0 auto;
+        display: block;
+    }
+    .landingleftcontent h2 {
+        font-size: 46px;
+      line-height: normal;
+    }
+    .landingleftcontent {
+        margin-top: 55%;
+    }
+    .landingleftcontent p br{
+        display: none;
+    }
+    .landingleftcontent h4 {
+        font-size: 20px;
+      line-height: normal;
+    }
+    .landingleftcontent {
+        margin-top: 62%;
+    }
+
+    .aspirelandingblock2 .mainwrappercontent .row{
+        display: block;
+    }
+    .aspirelandingblock2left {
+        position: relative !important;
+        width: 100% !important;
+        flex: 100% !important;
+        max-width: 100% !important;
+        text-align: center;
+    }
+
+    .aspirelandingblock2right{
+        position: relative !important;
+        width: 100% !important;
+        flex: 100% !important;
+        max-width: 100% !important;
+        text-align: center;
+    }
+
+    .btnblock-rb {
+        position: inherit;
+        right: 0;
+        bottom: 0;
+    }
+    .text-right.btnblock-rb {
+        text-align: center !important;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .aspirelandingblock2 .videomainwrapper {
+        width: 100%;
+        float: none;
+    }
+
+    .aspirelandingblock3bgsml{display: block; width: 100%;}
+
+    .ptb-77{padding-top: 20px; padding-bottom: 30px;}
+    .aspirelandingblock3.ptb-77{padding-top: 0px !important; padding-bottom: 30px;}
+
+    .aspirelandingblock3 {
+        background: -moz-linear-gradient(38deg, rgba(161, 176, 183, 1) 0%, rgba(237, 248, 252, 1) 39%, rgba(212, 226, 233, 1) 100%); /* ff3.6+ */
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(161, 176, 183, 1)), color-stop(39%, rgba(237, 248, 252, 1)), color-stop(100%, rgba(212, 226, 233, 1))); /* safari4+,chrome */
+        background: -webkit-linear-gradient(38deg, rgba(161, 176, 183, 1) 0%, rgba(237, 248, 252, 1) 39%, rgba(212, 226, 233, 1) 100%); /* safari5.1+,chrome10+ */
+        background: -o-linear-gradient(38deg, rgba(161, 176, 183, 1) 0%, rgba(237, 248, 252, 1) 39%, rgba(212, 226, 233, 1) 100%); /* opera 11.10+ */
+        background: -ms-linear-gradient(38deg, rgba(161, 176, 183, 1) 0%, rgba(237, 248, 252, 1) 39%, rgba(212, 226, 233, 1) 100%); /* ie10+ */
+        background: linear-gradient(52deg, rgba(161, 176, 183, 1) 0%, rgba(237, 248, 252, 1) 39%, rgba(212, 226, 233, 1) 100%); /* w3c */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a1b0b7', endColorstr='#d4e2e9', GradientType=1); /* ie6-9 */
+    }
+
+    .aspirelandingblock3content {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .aspirelandingblock3 .text-right{
+        text-align: center !important;
+    }
+
+    .aspirelandingblock6bgsml{display: block;width: 100%;}
+
+    .aspirelandingblock6 {
+        background-image:none !important;
+        background-color: #696e76;
+        width: 100%;
+        margin: 0;
+        position: relative;
+        z-index: 99;
+        min-height: 1px;
+        padding-top: 0px !important;
+    }
+    .aspirelandingblock6content {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 1100px) {
+    .landingleftcontent h2 {
+        font-size: 42px;
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+
+    .landinglogoblock1 {
+        margin-top: 0;
+    }
+
+
+
+    .aspirelandingblock1 {
+        background-image: url(../../assets/images/aspirelandingblock1bg.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top left;
+    }
+    .aspirelandingblock1 .col-md-7.topleftdiv {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .aspirelandingblock1 .col-md-5.toprightdiv {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .landingleftcontent {
+        margin-top: 46%;
+    }
+    .toprightformdiv {
+        float: none;
+        margin: 0 auto;
+    }
+
+    .toprightformdiv {
+        width:454px !important;
+    }
+
+    .aspirelandingblock8contentlists .singlecolumn h2 {
+        font-size: 20px;
+        line-height: 28px !important;
+    }
+
+    .aspirelandingblock8contentlists .singlecolumn h3 {
+        font-size: 18px;
+        line-height: 24px !important;
+    }
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .landingleftcontent {
+    margin-top: 41%;
+  }
+    .aspirelandingblock8contentlists {
+        width: 100%;
+        display: block;
+    }
+
+    .aspirelandingblock8contentlists .singlecolumn {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .generalcls h1 {
+        font-size: 32px;
+        line-height: 36px !important;
+    }
+    .generalcls h2 {
+        font-size: 22px;
+        line-height: 30px !important;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .loginmainwrapper {width: 80%;}
+    .btnblue {
+        font-size: 18px;
+        line-height: 30px;
+        padding: 10px 20px;
+    }
+
+    .circledivwrapperinner h1 {
+        font-size: 30px;
+        line-height: 48px !important;
+    }
+
+    .aspirelandingblock7contentlists .singlecolumn {
+        width: 100%;
+        display: block;
+        height: auto;
+        text-align: center;
+    }
+    .getpainimgwrapper {
+        width: 80%;
+    }
+    .circledivwrapper {
+        width: 170px;
+        height: 170px;
+    }
+
+    .toprightformdiv {
+        width:100% !important;
+    }
+    .landingleftcontent h2 {
+        font-size: 38px;
+    }
+    .landingleftcontent {
+        margin-top: 40%;
+    }
+}
+
+
+@media screen and (max-width: 540px) {
+    .getpainimgwrapper {
+        width: 90%;
+    }
+    .circledivwrapper {
+        width: 160px;
+        height: 160px;
+    }
+    .copyrightdiv{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    .aspirelandingblock8imgblock {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+  .landingleftcontent {
+    margin-top: 31%;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+    .loginmainwrapper {width: 94%;}
+
+    .circledivwrapper {
+        width: 140px;
+        height: 140px;
+    }
+
+    .circledivwrapperinner h1 {
+        font-size: 24px;
+        line-height: 30px !important;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .getpainimgwrapper {
+        width: 100%;
+    }
+    .circledivwrapper {
+        width: 120px;
+        height: 120px;
+    }
+
+    .circledivwrapperinner h1 {
+        font-size: 20px;
+        line-height: 26px !important;
+    }
+}
